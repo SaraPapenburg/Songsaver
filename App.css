@@ -1,0 +1,125 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input {
+  margin-right: 4px;
+  background-color: rgb(117, 201, 250);;
+  border: none;
+  font-weight: bold;
+  padding: 6px 8px;
+}
+input::-moz-placeholder {
+  color: black;
+}
+input:-ms-input-placeholder {
+  color: black;
+}
+input::placeholder {
+  color: black;
+}
+
+#ratingField {
+  width: 4rem;
+}
+
+button, select {
+  margin-right: 4px;
+  border-radius: 0;
+  padding: 6px 8px;
+  background-color: rgb(117, 201, 250);;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+}
+button:hover, select:hover {
+  cursor: pointer;
+}
+
+#songSubmitBtn {
+  background-color:  rgb(33, 95, 209);;
+  color: rgb(240, 209, 204);
+}
+
+.songListDiv {
+  width: 98%;
+  display: block;
+  margin-left: 1%;
+}
+.songListDiv h2 {
+  background-color: rgb(46, 104, 212);
+  color: bisque;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 4px;
+}
+.songListDiv .displayedSongDiv, .songListDiv .songFormDiv {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.indDisplayedSongs {
+  background-color: rgb(162, 211, 240);
+  display: inline;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding: 6px 24px ;
+}
+
+.indDisplayedSongs td{
+  text-align: left;
+padding: 6px 24px;
+  font-size: 14px;
+}
+
+.songButtons button {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.nav {
+  color: bisque;
+  background-color: rgb(5, 3, 180);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1.5rem;
+}
+.nav .siteTitle {
+  font-size: 3rem;
+}
+.nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.nav a {
+  list-style: none;
+  text-decoration: none;
+}
+.nav a:visited {
+  color: inherit;
+}
+
+.aboutDiv {
+  display: flex;
+  margin: 20px;
+  text-align: left;
+  line-height: 25px;
+}
+
+.displayedSongDiv th{
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+}
+
